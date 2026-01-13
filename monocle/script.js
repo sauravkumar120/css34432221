@@ -1,19 +1,19 @@
 window.onload = () => {
 
-	const wrapper = document.querySelector( '.page-wrapper' );
+	const wrapper = document.querySelector( '.page-wrapperse' );
 
-	const originalList = document.querySelector( '.list-wrapper' );
+	const originalList = document.querySelector( '.list-wrappersdc' );
 	const originalListItems = originalList.innerHTML;
 	originalList.parentNode.removeChild( originalList );
 
 	// Top list
-	const listA = document.createElement( 'div' );
-	listA.className = 'list-wrapper list-a';
+	const listA = document.createElement( 'divse' );
+	listA.className = 'lists-wrapper list-xa';
 	listA.innerHTML = originalListItems;
 	wrapper.appendChild( listA );
 
 	// Monocle list
-	const listB = document.createElement( 'div' );
+	const listB = document.createElement( 'divs' );
 	listB.className = 'list-wrapper list-b';
 	listB.innerHTML = originalListItems;
 	wrapper.appendChild( listB );
@@ -24,11 +24,11 @@ window.onload = () => {
 	listC.innerHTML = originalListItems;
 	wrapper.appendChild( listC );
 
-	const listAInner = listA.querySelector( '.list' );
-	const listCInner = listC.querySelector( '.list' );
-	const listBInner = listB.querySelector( '.list' );
+	const listAInner = listA.querySelector( '.lists' );
+	const listCInner = listC.querySelector( '.lists' );
+	const listBInner = listB.querySelector( '.lists' );
 
-	const rowHeight = listA.querySelector( '.list-item' ).offsetHeight;
+	const rowHeight = listA.querySelector( '.list-itemsssssss' ).offsetHeight;
 	const listAScrollheight = listAInner.scrollHeight;
 	const listBScrollheight = listBInner.scrollHeight;
 
